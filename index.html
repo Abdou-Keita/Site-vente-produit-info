@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechStore - Produits Informatiques</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #0f172a; color: white; padding: 20px; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    .hero { background: linear-gradient(120deg, #2563eb, #1e40af); color: white; padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 42px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; margin-bottom: 20px; }
+    .hero button { background: #22c55e; border: none; padding: 15px 30px; font-size: 16px; color: white; cursor: pointer; border-radius: 5px; }
+    .section { padding: 50px 20px; max-width: 1200px; margin: auto; }
+    .categories, .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; }
+    .card img { max-width: 100%; height: 150px; object-fit: contain; }
+    footer { background: #020617; color: white; padding: 30px 20px; text-align: center; }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>TechStore</h2>
+    <div>
+      <a href="#">Accueil</a>
+      <a href="#">Produits</a>
+      <a href="#">Promotions</a>
+      <a href="#">Contact</a>
+      <a href="#">Panier</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Votre boutique informatique de confiance</h1>
+  <p>Ordinateurs, accessoires, composants et solutions high-tech au meilleur prix</p>
+  <button>Voir les produits</button>
+</section>
+
+<section class="section">
+  <h2>Catégories populaires</h2>
+  <div class="categories">
+    <div class="card"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80" alt="Ordinateurs portables" /><p>Ordinateurs Portables</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d9?auto=format&fit=crop&w=600&q=80" alt="PC de bureau" /><p>PC de Bureau</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=600&q=80" alt="Accessoires" /><p>Accessoires</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80" alt="Composants PC" /><p>Composants</p></div>
+    <div class="card">Réseaux & Sécurité</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Produits vedettes</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Laptop" />
+      <h3>PC Portable i7</h3>
+      <p>Performances élevées pour le travail et le gaming</p>
+      <strong>999 €</strong>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="PC Gamer" />
+      <h3>PC Gamer RTX</h3>
+      <p>Graphismes puissants et fluidité extrême</p>
+      <strong>1499 €</strong>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Souris" />
+      <h3>Souris Gaming RGB</h3>
+      <p>Précision et confort</p>
+      <strong>49 €</strong>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Pourquoi choisir TechStore ?</h2>
+  <div class="categories">
+    <div class="card">🚚 Livraison rapide</div>
+    <div class="card">🔒 Paiement sécurisé</div>
+    <div class="card">💬 Support client 24/7</div>
+    <div class="card">⭐ Produits certifiés</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 TechStore - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
